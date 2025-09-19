@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+﻿# NFT Launchpad + Presale (Sepolia Demo)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Live DApp: (add your Vercel URL)
+Token (LCH): 0xf13972B079996c1Ac56BA8D021C5E7d35edc98D6  
+Presale:     0xFad14642Bd120187377d79b5B9b52433f5545315
 
-Try running some of the following tasks:
+Features: presale caps, escrow, finalize, vesting, claims; Next.js + RainbowKit.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Local Dev
+cd launchpad
+npm i
+npx hardhat compile
+cd app
+npm i
+npm run dev

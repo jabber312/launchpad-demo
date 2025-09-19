@@ -1,6 +1,9 @@
 ﻿.env
 app/.env.local
 node_modules
-cache
 artifacts
+cache
+coverage
 .next
+dist
+.DS_Store
