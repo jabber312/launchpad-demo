@@ -1,0 +1,6 @@
+﻿.env
+app/.env.local
+node_modules
+cache
+artifacts
+.next
